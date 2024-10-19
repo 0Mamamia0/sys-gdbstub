@@ -11,8 +11,8 @@ on:
 
 jobs:
   build:
-    name: ubuntu-18.04
-    runs-on: ubuntu-18.04
+    name: ubuntu-20.04(ubuntu-latest)
+    runs-on: ubuntu-20.04(ubuntu-latest)
     container: devkitpro/devkita64:20210726
 
     steps:
