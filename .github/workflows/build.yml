@@ -10,8 +10,8 @@ on:
 
 jobs:
   build:
-    name: ubuntu-20.04(ubuntu-latest)
-    runs-on: ubuntu-20.04(ubuntu-latest)
+    name: build with ubuntu-latest
+    runs-on: ubuntu-latest
     container: devkitpro/devkita64:20260219
 
     steps:
