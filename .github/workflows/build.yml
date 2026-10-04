@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: sys-gdbstub
-          path: gdbstub.zip
+          path: sys-gdbstub.zip
 
       - name: Release
         if: startsWith(github.ref, 'refs/tags/v')
