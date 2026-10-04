@@ -5,7 +5,6 @@ on:
   push:
     branches: 
       - master
-  create:
     tags:
       - "v*"
 
@@ -13,7 +12,7 @@ jobs:
   build:
     name: ubuntu-20.04(ubuntu-latest)
     runs-on: ubuntu-20.04(ubuntu-latest)
-    container: devkitpro/devkita64:20210726
+    container: devkitpro/devkita64:20260219
 
     steps:
       - name: Checkout repository
