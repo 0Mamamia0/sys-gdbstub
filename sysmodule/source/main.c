@@ -59,8 +59,8 @@ void __attribute__((weak)) __appInit(void)
     static const SocketInitConfig socket_config = {
         // 。bsdsockets_version = 1，
 
-        。tcp_tx_buf_size        = 0x1000,
-        。tcp_rx_buf_size        = 0x1000,
+        .tcp_tx_buf_size        = 0x1000,
+        .tcp_rx_buf_size        = 0x1000,
         .tcp_tx_buf_max_size    = 0,
         .tcp_rx_buf_max_size    = 0,
 
